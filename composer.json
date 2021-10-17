@@ -1,0 +1,37 @@
+{
+	"name": "pessek/pessek_autocomplete",
+	"type": "elgg-plugin",
+	"description": "Autocomplete input",
+	"keywords": [
+		"elgg", "plugin", "autocomplete", "forms"
+	],
+	"license": "proprietary",
+	"authors": [
+		{
+			"name": "Hermand PESSEK",
+			"email": "rhemandaddy@gmail.com"
+		}
+	],
+	"extra": {
+		"installer-name": "pessek_autocomplete"
+	},
+	"require": {
+		"php": ">=7.4",
+		"composer/installers": "^1.0.8",
+		"bower-asset/select2": "^4.0"
+	},
+	"autoload": {
+		"psr-0": {
+			"": "classes/"
+		}
+	},
+	"repositories": [
+		{
+            		"type": "composer",
+            		"url": "https://asset-packagist.org"
+		}
+	],
+        "conflict": {
+                "elgg/elgg": "<4.0"
+        }
+}
